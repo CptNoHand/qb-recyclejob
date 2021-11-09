@@ -1,7 +1,7 @@
 Config = {}
 
 Config['delivery'] = {
-	outsideLocation = vector4(55.576, 6472.12, 31.42, 230.732),
+	outsideLocation = vector4(147.03, 6366.71, 31.53, 116.61),
 	insideLocation = vector4(1072.72, -3102.51, -40.0, 82.95),
 	pickupLocations = {
 		[1] = vector4(1067.68, -3095.43, -39.9, 342.39),
