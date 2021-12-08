@@ -13,7 +13,7 @@ local ItemTable = {
 RegisterNetEvent('qb-recycle:server:getItem', function()
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
-    for i = 1, math.random(1, 5), 1 do
+    for i = 1, math.random(1, 3), 1 do
         local randItem = ItemTable[math.random(1, #ItemTable)]
         local amount = math.random(1, 3)
         Player.Functions.AddItem(randItem, amount)
